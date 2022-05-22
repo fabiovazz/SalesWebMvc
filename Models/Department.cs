@@ -1,4 +1,8 @@
-﻿namespace SalesWebMvc.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace SalesWebMvc.Models
 {
     public class Department
     {
@@ -10,9 +14,8 @@
         {
         }
 
-        public Department(int id, string name)
+        public Department(string name)
         {
-            Id = id;
             Name = name;
         }
 
